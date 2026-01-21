@@ -13,9 +13,9 @@ from turtle import *
 
 from freegames import square, vector
 
-food = vector(0, 0)
-snake = [vector(10, 0)]
-aim = vector(0, -10)
+food = vector(0, 0)  # 食物位置
+snake = [vector(10, 0)]  # 蛇身（列表，每个元素是一个位置向量）
+aim = vector(0, -10) # 移动方向
 
 
 def change(x, y):
